@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<head><title>Calculadora</title><meta charset="utf8">
+		<script type="text/javascript">
+			function cube() {
+				var num = document.getElementById("n1");
+				num.value = Math.pow(num.value, 3)
+			}
+		</script>
+	</head>
+	<body>
+		number:
+		<input type="text" id="n1"><p>
+		<button onclick="cube()">X<sup>3</sup></button>	
+	</body>
+</html>	
